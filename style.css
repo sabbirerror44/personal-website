@@ -1,0 +1,85 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35;
+}
+section{
+    height: 560px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin:2%;
+    padding:2%;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.bio-bg{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-bg{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:40%;
+    margin-left: 5%;
+    padding-left: 3%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.one-third{
+    margin: 2%;
+    padding: 2%;
+    width: 25%;
+    float: left;
+}
+.one-third img{
+    width: 100%;
+}
+.Highlight{
+    color: purple;
+    font-weight: 700;
+    font-size: 40px;
+}
+#hire{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#cv{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.cen{
+    text-align: center;
+}
+#last{
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    height: 150px;
+    width: 800px;
+    margin-left:20%;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
