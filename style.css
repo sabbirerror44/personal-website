@@ -1,5 +1,6 @@
 body{
     font-family: 'PT Serif', serif;
+    margin: 0;
 }
 h1{
     font-size: 35px;
@@ -10,18 +11,25 @@ h2{
 section{
     height: 560px;
     margin:3%;
+    margin-top: 0px;
     padding:3%;
 }
 .top-banner{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
+    background-size: 40% 80%;
 }
 .bio-bg{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
+    background-size: 140% 90%;
 }
 .latest-bg{
     background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.footer-bg{
+    background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
 }
 .half-width{
@@ -95,4 +103,34 @@ footer{
     color:dimgray;
     font-size: 11px;
     text-align: center;
+}
+
+#conn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 17%;
+    height: 150px;
+    width: 750px;
+}
+#one-third1{
+    margin: 7%;
+    padding: 2%;
+    width: 19%;
+    height: 200px;
+    width: 100px;
+    text-decoration: none;
+    background-image: url("images/fb.png");
+
+}
+.one-third2{
+    margin-left: 18%;
+    margin-top: 10%;
+    padding: 2%;
+    width: 19%;
+    height: 80px;
+    width: 20px;
+    float: left;
+
 }
