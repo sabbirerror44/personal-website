@@ -10,8 +10,7 @@ h2{
 }
 section{
     height: 560px;
-    margin:3%;
-    margin-top: 0px;
+    margin-bottom:3%;
     padding:3%;
 }
 .top-banner{
@@ -85,7 +84,7 @@ section{
     background-color: #e44685;
     height: 128px;
     width: 545px;
-    margin-left:26%;
+    margin-left:28%;
     justify-content: center;
     color: white;
     font-size: smaller;
@@ -135,4 +134,7 @@ footer{
     width: 20px;
     float: left;
 
+}
+.line{
+    line-height: 1.7;
 }
